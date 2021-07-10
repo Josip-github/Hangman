@@ -56,7 +56,7 @@ public class Hangman {
 			}
 		}
 		
-		rijecSadrziSlovo = Hangman2.slovoSeNalaziURijeèi(korisnikovoSlovo, rijec);
+		rijecSadrziSlovo = Hangman2.slovoSeNalaziURijeci(korisnikovoSlovo, rijec);
 		if (rijecSadrziSlovo) {
 			Hangman2.ispisiTrenutnoStanjeRijeci(korisnikoviPokusaji, rijecArray);
 			System.out.println("\nToèno! Imate života: " + zivoti + "; nastavite!");

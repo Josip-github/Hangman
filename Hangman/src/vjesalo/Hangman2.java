@@ -39,11 +39,11 @@ public class Hangman2 {
 		
 	}
 	
-	public static boolean slovoSeNalaziURijeèi(String slovo, String rijeè) {
+	public static boolean slovoSeNalaziURijeci(String slovo, String rijec) {
 		boolean sadrziSlovo;
-		List<String> listaSlovaOdRijeèi = new ArrayList<String>(Arrays.asList(rijeè.split("")));
+		List<String> listaSlovaOdRijeci = new ArrayList<String>(Arrays.asList(rijec.split("")));
 		
-		if (listaSlovaOdRijeèi.contains(slovo) == true) {
+		if (listaSlovaOdRijeci.contains(slovo) == true) {
 			sadrziSlovo = true;
 		}else {
 			sadrziSlovo = false;
