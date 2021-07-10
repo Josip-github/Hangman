@@ -75,6 +75,8 @@ public class Hangman {
 		}else if (!korisnikPogodioRijec && zivoti == 0) {
 			System.out.println("Nažalost niste uspjeli, više sreæe drugi put... Rijeè: " + rijec);
 		}
+		Hangman2.ispisiTrenutnoStanjeRijeci(korisnikoviPokusaji, rijecArray);
+		System.out.println();
 		Hangman2.ispisiSveKorisnikovePokusaje(korisnikoviPokusaji);
 	}
 		
